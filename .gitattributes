@@ -19,6 +19,11 @@
 *.wav binary
 *.mp3 binary
 *.ogg binary
+*.mp4 binary
+*.mov binary
+*.webm binary
+*.avi binary
+*.mkv binary
 *.ttf binary
 *.otf binary
 *.unitypackage binary

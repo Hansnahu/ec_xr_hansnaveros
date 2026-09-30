@@ -196,7 +196,20 @@ EC → Construir escena EC_XR_NaverosHans
 
 ## Video demostrativo
 
-> 🎬 **Enlace al video:** `PENDIENTE` — reemplazar por la URL del video (máximo 1 minuto).
+🎬 **Duración: 48 segundos** (dentro del máximo de 1 minuto exigido por la rúbrica).
+
+- ▶️ **Ver / descargar en GitHub:**<br>
+  https://github.com/Hansnahu/ec_xr_hansnaveros/blob/main/Videos/EC_XR_NaverosHans_demo.mp4
+- 📥 **Descarga directa (MP4, 56 MB):**<br>
+  https://github.com/Hansnahu/ec_xr_hansnaveros/raw/main/Videos/EC_XR_NaverosHans_demo.mp4
+- 📁 **Archivo dentro del repositorio:** [`Videos/EC_XR_NaverosHans_demo.mp4`](Videos/EC_XR_NaverosHans_demo.mp4)
+
+**Contenido del video** (grabado en el Editor con el *XR Interaction Simulator*, sin visor):
+
+1. Vista general del escenario `EC_XR_NaverosHans` y su jerarquía.
+2. Interacción a distancia con el rayo del controlador sobre los objetos.
+3. Reto libre en funcionamiento: el generador de objetos crea primitivas 3D agarrables y el
+   contador de la UI espacial sube de `Objetos: 0 / 12` a `Objetos: 2 / 12`.
 
 ---
 
