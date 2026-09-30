@@ -98,8 +98,23 @@ El escenario se puede probar **sin visor** usando el **XR Interaction Simulator*
 | --- | --- |
 | `Shift` (mantener) | Mientras se mantiene, `T`, `G`, `1`, `2`… actúan sobre el **mando izquierdo** en lugar del derecho |
 
-> Al cambiar de un mando a otro, los controles que quedaron presionados **siguen presionados**:
-> eso permite agarrar o accionar con las dos manos a la vez.
+> **Importante:** el ratón solo mueve y apunta **al dispositivo objetivo**, nunca a los dos de forma
+> independiente. Al arrancar el objetivo es únicamente el **mando derecho**, por eso el izquierdo
+> permanece quieto hasta que se le da el control. Si se activan los dos a la vez, ambos se desplazan
+> en paralelo y apuntan al mismo punto del ratón.
+
+*Flujo de agarre con las dos manos*
+
+1. Pulsa `]` para tomar el **mando derecho**, apunta con el ratón al primer objeto y **mantén `T`**
+   (o el botón izquierdo del ratón) para agarrarlo.
+2. **Sin soltar el trigger**, pulsa `[`: el control pasa al **mando izquierdo** y el trigger del derecho
+   **sigue presionado**, por lo que el objeto continúa agarrado.
+3. Con el ratón apuntando ya al mando izquierdo, apunta al segundo objeto y pulsa `T` para agarrarlo
+   también.
+4. Para volver al mando derecho pulsa `]`. Para recentrar ambos dispositivos, `R`.
+
+> Al cambiar de un mando a otro, los controles que quedaron presionados **siguen presionados**: ese es
+> el mecanismo que permite interactuar con las dos manos sin necesidad de mover los dos mandos a la vez.
 
 *Apuntar y desplazarse*
 
