@@ -75,22 +75,60 @@ El escenario se puede probar **sin visor** usando el **XR Interaction Simulator*
 2. Abrir la escena `Assets/Scenes/EC_XR_NaverosHans.unity`.
 3. Pulsar **Play**. El simulador de XR se carga solo (ya está en la escena).
 
-**Teclas del XR Interaction Simulator:**
+**Teclas del XR Interaction Simulator** (tomadas de
+`Assets/Samples/XR Interaction Toolkit/3.6.1/XR Interaction Simulator/*.inputactions`):
+
+*Tomar el control de los mandos*
 
 | Tecla | Acción |
 | --- | --- |
-| `Tab` | Alterna entre modo FPS (HMD + controladores) y modo dispositivo |
-| `[` / `]` / `[]` | Toma el control del dispositivo izquierdo / derecho / ambos |
-| `W A S D` (mantener) | Desplaza el dispositivo activo |
-| `↑ ↓ ← →` (mantener) | Rota el dispositivo activo |
-| `T` (mantener) | **Trigger** (dispara el rayo: agarra, cambia color, enciende la luz, genera objetos) |
-| `G` (mantener) | **Grip** |
-| `Botón izquierdo del ratón` | Seleccionar con el controlador activo |
-| `Botón derecho del ratón` + ratón | Rotar la cabeza (HMD) |
+| `[` (corchete izq.) | Toma / suelta el **mando izquierdo** |
+| `]` (corchete der.) | Toma / suelta el **mando derecho** |
+| `[` + `]` seguidos | Deja activos **ambos** mandos |
+| `H` | Toma / suelta solo la **cabeza** (HMD) |
+| `Tab` | Cicla entre modo FPS (cabeza + mandos) y modo dispositivo |
+| `X` / `Y` | Menú de acciones / menú de selección de dispositivo |
+
+> Si se pulsa `[` o `]` **dos veces seguidas** se alterna entre modo *Controller* y modo *Hand*.
+> Si el mando desaparece y aparecen manos, pulsa la misma tecla dos veces para volver.
+
+*Usar los dos mandos a la vez*
+
+| Tecla | Acción |
+| --- | --- |
+| `Shift` (mantener) | Mientras se mantiene, `T`, `G`, `1`, `2`… actúan sobre el **mando izquierdo** en lugar del derecho |
+
+> Al cambiar de un mando a otro, los controles que quedaron presionados **siguen presionados**:
+> eso permite agarrar o accionar con las dos manos a la vez.
+
+*Apuntar y desplazarse*
+
+| Tecla | Acción |
+| --- | --- |
+| Mover el ratón | El mando activo **apunta** hacia donde está el cursor |
+| `Botón izquierdo del ratón` (mantener) | **Select / Trigger** del mando activo |
+| `Botón derecho del ratón` (mantener) + ratón | Rotar la cabeza (HMD) |
+| `W` / `S` | Avanzar / retroceder |
+| `A` / `D` | Desplazar a la izquierda / derecha |
+| `Q` / `E` | Bajar / subir |
+| `↑ ↓ ← →` | Rotar el dispositivo activo |
+| `I J K L` | Joystick (eje 2D del mando) |
 | `R` | Reiniciar la posición del dispositivo activo |
 
-> Para interactuar: tomá el control derecho con `]`, apuntá con el ratón hacia el objeto y mantené `T`
-> (o el botón izquierdo del ratón) sobre: `Objeto_Color`, `Lamp_Head` o `Boton_Aparicion`.
+*Acciones del mando*
+
+| Tecla | Acción |
+| --- | --- |
+| `T` (mantener) | **Trigger** (dispara el rayo: agarra, cambia color, enciende la luz, genera objetos) |
+| `G` (mantener) | **Grip** |
+| `1` / `2` | Botón primario / secundario |
+| `M` | Menu |
+| `3` – `8` | Clic / touch de los ejes 2D |
+| `` ` `` (backtick) / `Espacio` | Ciclar / ejecutar la *quick action* |
+
+> **Receta rápida:** pulsa `]` para tomar el mando derecho, apunta con el ratón a `Objeto_Color`,
+> `Lamp_Head` o `Boton_Aparicion` y mantén `T` (o el botón izquierdo del ratón) para interactuar.
+> Si el rayo no engancha, pulsa `R` para recentrar el dispositivo.
 
 ### Con visor (build)
 
