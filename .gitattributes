@@ -1,0 +1,56 @@
+# ============================================================
+# Normalización de finales de línea
+# ============================================================
+* text=auto eol=lf
+
+# ============================================================
+# Archivos binarios (sin conversión de texto)
+# ============================================================
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tif binary
+*.tiff binary
+*.gif binary
+*.psd binary
+*.fbx binary
+*.obj binary
+*.blend binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+*.ttf binary
+*.otf binary
+*.unitypackage binary
+*.dll binary
+*.so binary
+*.a binary
+*.apk binary
+*.aab binary
+
+# ============================================================
+# Archivos YAML de Unity: sin conversión de finales de línea
+# ============================================================
+*.unity text eol=lf
+*.prefab text eol=lf
+*.asset text eol=lf
+*.mat text eol=lf
+*.meta text eol=lf
+*.controller text eol=lf
+*.anim text eol=lf
+*.inputactions text eol=lf
+
+# ============================================================
+# Marcado de lenguaje y merge de Unity YAML
+# ============================================================
+*.cs text eol=lf diff=csharp
+*.shader text eol=lf
+*.hlsl text eol=lf
+*.shadergraph text eol=lf
+*.asmdef text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+
+# UnityYAMLMerge (requiere configurar el merge tool localmente)
+*.unity merge=unityyamlmerge
+*.prefab merge=unityyamlmerge

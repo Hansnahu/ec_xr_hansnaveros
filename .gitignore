@@ -1,0 +1,59 @@
+# ============================================================
+# Unity - carpetas generadas / no versionables
+# ============================================================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# ============================================================
+# Proyectos generados por el IDE
+# ============================================================
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+
+# ============================================================
+# Sistema operativo
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Unity - artefactos de build y crash reports
+# ============================================================
+sysinfo.txt
+crashlytics-build.properties
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# ============================================================
+# Excepción: las capturas de evidencia SI se versionan
+# ============================================================
+!Assets/Screenshots/
+!Assets/Screenshots/*.png
+!Assets/Screenshots/*.png.meta
